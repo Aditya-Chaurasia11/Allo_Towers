@@ -76,9 +76,6 @@ usa-location-mapper/
 └── package.json
 ```
 
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - OpenStreetMap for providing the map tiles
