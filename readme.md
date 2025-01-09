@@ -15,22 +15,15 @@ An interactive React application for mapping and visualizing locations across th
 
 - React.js
 - TypeScript
-- Leaflet (react-leaflet)
 - Tailwind CSS
 - Lucide React (for icons)
-- Vite (build tool)
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn package manager
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd usa-location-mapper
+git clone https://github.com/Aditya-Chaurasia11/Allo_Towers.git
+cd Allo_Towers
 ```
 
 2. Install dependencies:
@@ -42,8 +35,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
 ## Usage
 
@@ -69,15 +60,6 @@ The application comes with three default locations:
 - Los Angeles, CA
 - Chicago, IL
 
-## Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
 
 ## Project Structure
 
@@ -85,24 +67,15 @@ The built files will be in the `dist` directory.
 usa-location-mapper/
 ├── src/
 │   ├── components/
-│   │   └── Map.tsx         # Main map component
-│   ├── App.tsx            # Root application component
-│   ├── main.tsx          # Application entry point
-│   └── index.css         # Global styles
+│   │   └── Map.tsx         
+│   ├── App.tsx           
+│   ├── main.tsx          
+│   └── index.css         
 ├── public/
 ├── index.html
 └── package.json
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
